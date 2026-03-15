@@ -3,6 +3,9 @@
 > **Mobile action platformer** — Unreal Engine 5.7 · C++ · Android · Solo Development  
 > [Google Play](https://play.google.com/store/apps/details?id=com.Kubrick.RoyalJump) · [ArtStation](https://www.artstation.com/kubrik)
 
+
+
+
 ---
 
 ## Overview
@@ -61,6 +64,7 @@ RoyalJump/
 ## Core Systems: Technical Detail
 
 ### 1. Touch Input System
+![image](https://play-lh.googleusercontent.com/5YFNzifSfpoiCP6yAruXSyrZ-fNxXJld1JW1zpePrs6ES_v_rMg1JJMH5gre2cqs0nD8gSfce3JvEpG58ha7JXg=w2560-h1440-rw)
 
 Touch input on mobile requires a fundamentally different approach from keyboard/gamepad — input arrives with variable latency, simultaneous multi-touch events, and no analog stick precision. The entire input pipeline is built as a custom `UTouchInputComponent` rather than relying on UE's default `UPlayerInput` touch abstraction.
 
@@ -120,7 +124,7 @@ void UMovementSystem::TickComponent(float DeltaTime, ...)
 ---
 
 ### 2. Physics Movement System
-
+![image](https://play-lh.googleusercontent.com/hPN4-zzlTGuOfldYgNKfQHpns5ldD79F5hrK1KZM7RlX4rkeerdfl6E-ELWJyDnaSwk1Ya87NP8XQrpCADCDIQ=w2560-h1440-rw)
 Movement is driven by direct physics force application rather than UE's `UCharacterMovementComponent` kinematic preset. This gives precise control over acceleration curves, friction models, and mid-air behavior — necessary for a precision platformer where movement feel is the primary gameplay layer.
 
 **Core Movement Model:**
@@ -170,7 +174,7 @@ void UMovementSystem::TickJumpHold(float DeltaTime)
 ---
 
 ### 3. Momentum System
-
+![image](https://play-lh.googleusercontent.com/8OhHYAID-OCwc9eR0Sh8WSEmYskKNQ21ZF26q1WmzCkM-IbX8f-Hk-XCQK0EfH6C7oY5Ze-rlTgNnvisYvm9gQ=w2560-h1440-rw)
 Clean, uninterrupted movement builds and preserves momentum — sloppy play bleeds speed. This is the core skill expression layer.
 
 **Momentum Accumulation:**
@@ -449,4 +453,4 @@ Touch controls are designed to be as invisible as possible — the interface sho
 
 ---
 
-*All code, art, design, and marketing assets produced by a single developer. No third-party gameplay code or purchased asset packs used in core systems.*
+*All code, design, and custom assets produced by a single developer. No third-party gameplay code used in core systems.*
