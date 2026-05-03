@@ -5,8 +5,6 @@
 
 ![](https://img.shields.io/badge/Mobile-0c5299?style=) ![](https://img.shields.io/badge/Platformer-759651?style=) ![C++](https://img.shields.io/badge/C++-00599C?style=logo=c%2B%2B&logoColor=white)  ![C++](https://img.shields.io/badge/Unreal_Engine_5.7-0E1128?style=for-the-badges&logo=unrealengine&logoColor=white)  ![C++](https://img.shields.io/badge/Status-Shipped-success?style=for-the-badges) 
 <br>
-A mobile platformer targeting Android. Guide the Queen through vertical levels where momentum and timing determine progress, built around a physics-driven movement model with touch-optimized controls tuned for mobile input and screen constraints.
-
 Royal Jump: Queen's Crown is a precision-based mobile platformer built in Unreal Engine 5.7 using C++, targeting Android. The player controls the Queen through vertically-ascending levels where momentum, timing, and clean input execution determine success. The game is built around a physics-driven movement model with touch-optimized controls , all input handling, movement feel, and jump behavior are tuned specifically for mobile touch input latency and screen real estate constraints.
 
 The technical challenge of this project centered on delivering responsive, frame-accurate platformer movement on mobile hardware , a context where input latency, thermal throttling, variable frame rates, and draw call budgets impose constraints absent from PC development. All gameplay systems, character controller, level architecture, UI, and assets were developed by a single developer.
