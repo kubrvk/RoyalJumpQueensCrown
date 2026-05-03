@@ -37,7 +37,7 @@ The technical challenge of this project centered on delivering responsive, frame
 | Animation | UE5 Animation Blueprint + `UAnimInstance` C++ subclass |
 | Profiling | Unreal Insights, Android GPU Debugger (Mali/Adreno) |
 | Build | Android SDK/NDK, Gradle, UE5 Android packaging pipeline |
-| 3D Pipeline | ZBrush , Maya , Substance Painter , UE5 |
+| 3D Pipeline | Blender, Substance Painter , UE5 |
 
 ---
 
@@ -433,7 +433,6 @@ Touch controls are designed to be as invisible as possible , the interface shoul
 | Platform | Android (Google Play) |
 | Input model | Custom touch input component |
 | Movement model | Physics force-based |
-| 3D Assets | All original |
 | Gameplay systems | 8 discrete systems (see above) |
 | Development tools | UE5 Editor, Android Studio, Blender, Substance Painter |
 
