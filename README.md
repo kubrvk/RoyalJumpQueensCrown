@@ -1,7 +1,7 @@
 # Royal Jump: Queen's Crown
 
 <img align="left" width="50%"  src="https://github.com/kubrvk/RoyalJumpQueensCrown/blob/main/Content/RoyalJump/banner-git.jpg?raw=true"/>
-<h3><a href="https://github.com/kubrvk/RoyalJumpQueensCrown">4-) Royal Jump: Queen's Crown</a> <a href="https://play.google.com/store/apps/details?id=com.Kubrick.RoyalJump"><img src="https://img.shields.io/badge/Google_Play:-com.Kubrick.RoyalJump-000000?style=flat-square&logo=google-play&logoColor=white&labelColor=000000" height="25"/> </a></h3>
+<h3> <a href="https://play.google.com/store/apps/details?id=com.Kubrick.RoyalJump"><img src="https://img.shields.io/badge/Google_Play:-com.Kubrick.RoyalJump-000000?style=flat-square&logo=google-play&logoColor=white&labelColor=000000" height="25"/> </a></h3>
 
 ![](https://img.shields.io/badge/Mobile-0c5299?style=) ![](https://img.shields.io/badge/Platformer-759651?style=) ![C++](https://img.shields.io/badge/C++-00599C?style=logo=c%2B%2B&logoColor=white)  ![C++](https://img.shields.io/badge/Unreal_Engine_5.7-0E1128?style=for-the-badges&logo=unrealengine&logoColor=white)  ![C++](https://img.shields.io/badge/Status-Shipped-success?style=for-the-badges) 
 <br>
